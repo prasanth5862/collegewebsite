@@ -33,7 +33,7 @@ const Home = () => {
               borderColor: "#F37337",
             }}
           >
-            Contact Us
+            Contact Us 
           </button>
           </div>
           </div>
@@ -43,5 +43,5 @@ const Home = () => {
     </div>
   );
 };
-
+// college website
 export default Home;
