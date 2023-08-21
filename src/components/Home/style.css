@@ -1,0 +1,45 @@
+#home {
+    height: 100vh;
+    margin-top: 100px;
+    padding: 0px 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.home-content {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.home-content-heading {
+    margin-top: 250px; ;
+    font-weight: 800;
+    color: #000;
+    font-size: 58px;
+   
+}
+.home-content-subheading {
+    font-weight: 400;
+    color: #000;
+    opacity: 0.7;
+ }
+.home-content-actions  button{
+padding: 17px 48px;
+border-radius: 80px;
+font-size: 18px;
+font-weight: 600;
+border: 1px; 
+border-style:solid;
+}
+.home-content-image {
+    width:fit-content;
+    background-repeat: no-repeat;
+   
+}
+.home-content-image img {
+   height: 500px;
+   margin:30px;
+   object-fit:contain ;
+}
